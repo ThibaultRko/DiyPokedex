@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { FormsComponent } from './forms/forms.component';
 import { DrawComponent } from './draw/draw.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { PokedexComponent } from './pokedex/pokedex.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { HeaderComponent } from './header/header.component';
     HomeComponent,
     FormsComponent,
     DrawComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent,
+    PokedexComponent
   ],
   imports: [
     BrowserModule,
